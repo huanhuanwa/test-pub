@@ -5,6 +5,15 @@
         "packages/*"
     ],
     "command": {
+        "version": {
+            "allowBranch": "main",
+            "conventionalCommits": true,
+            "exact": true,
+            "ignoreChanges": [
+              "**/*.md"
+            ],
+            "message": "build: release version %v"
+          },
         "publish": {
             "message": "chore(release): publish",
             "ignoreChanges": [
