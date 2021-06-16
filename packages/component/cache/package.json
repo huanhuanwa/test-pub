@@ -8,7 +8,5 @@
   },
   "author": "",
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/huanhuanwa"
-  }
+  "gitHead": "cbdf5e14449e5e23e0361ec2df23108ba01ab0d3"
 }
