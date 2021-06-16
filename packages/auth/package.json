@@ -1,0 +1,11 @@
+{
+  "name": "test-auth",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": ""
+  },
+  "author": "",
+  "license": "ISC"
+}
