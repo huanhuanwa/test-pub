@@ -1,6 +1,6 @@
 {
   "name": "test-huan-a",
-  "version": "0.0.32",
+  "version": "0.0.30",
   "description": "",
   "main": "index.ts",
   "scripts": {
@@ -8,5 +8,8 @@
   },
   "author": "",
   "license": "ISC",
-  "gitHead": "cbdf5e14449e5e23e0361ec2df23108ba01ab0d3"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huanhuanwa/test-puba.git"
+  }
 }
