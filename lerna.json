@@ -1,22 +1,24 @@
 {
-    "version": "0.0.0", 
+    "version": "0.0.0",
     "npmClient": "npm",
-    "packages": [ 
+    "packages": [
         "packages/*"
     ],
-    "workspaces": ["packages/*"],
+    "workspaces": [
+        "packages/*"
+    ],
     "command": {
-        "publish": { 
+        "publish": {
             "message": "chore(release): publish",
-            "ignoreChanges": [ 
+            "ignoreChanges": [
                 ".gitignore",
                 "*.log",
                 "*.md"
             ]
         },
-        "bootstrap": { 
+        "bootstrap": {
             "ignore": "npm-*",
-            "npmClientArgs": [ 
+            "npmClientArgs": [
                 "--no-package-lock"
             ]
         }
