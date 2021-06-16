@@ -9,16 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/huanhuanwa/test-pub.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/huanhuanwa/test-pub/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/atinc/selene#readme",
   "publishConfig": {
-    "registry": ""
+    "registry": "https://npm.pkg.github.com/atinc"
   },
   "dependencies": {},
   "devDependencies": {
