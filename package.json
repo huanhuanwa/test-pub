@@ -3,11 +3,14 @@
   "version": "0.0.25",
   "description": "",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "build": "rm -rf ./lib && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
     "release": "npm run build && standard-version && lerna publish",
     "change": "lerna changed",
-    "diff": "lerna diff"
+    "diff": "lerna diff",
+    "version": "lerna version --conventional-commits --yes",
+    "publish": "lerna publish from-git"
   },
   "repository": {
     "type": "git",
@@ -25,6 +28,7 @@
   "dependencies": {
     "standard-version": "^9.3.0"
   },
+  "workspaces":["packages/*"],
   "devDependencies": {
     "eslint": "^7.28.0",
     "lerna": "^4.0.0",
