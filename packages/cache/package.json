@@ -1,5 +1,5 @@
 {
-  "name": "test-cache",
+  "name": "test-cache-huan",
   "version": "0.0.2",
   "description": "",
   "main": "index.ts",
@@ -7,5 +7,6 @@
     "test": ""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "a15673f2d0579cb9ce673b5b3a1337f39192f6cf"
 }
