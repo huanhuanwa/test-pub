@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.2](https://github.com/huanhuanwa/test-puba/compare/v0.0.33...v0.0.2) (2021-06-16)
+
+**Note:** Version bump only for package test-huan-a
+
+
+
+
+
 ## [0.0.1](https://github.com/huanhuanwa/test-puba/compare/v0.0.33...v0.0.1) (2021-06-16)
 
 **Note:** Version bump only for package test-huan-a
