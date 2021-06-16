@@ -1,6 +1,6 @@
 {
   "name": "test-libs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,9 +16,9 @@
   "bugs": {
     "url": "https://github.com/huanhuanwa/test-pub/issues"
   },
-  "homepage": "https://github.com/atinc/selene#readme",
+  "homepage": "https://github.com/huanhuanwa/test-pub#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/atinc"
+    "registry": "https://npm.pkg.github.com/huanhuanwa"
   },
   "dependencies": {},
   "devDependencies": {
