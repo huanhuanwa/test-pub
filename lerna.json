@@ -1,5 +1,5 @@
 {
-    "version": "0.0.26",
+    "version": "0.0.27",
     "npmClient": "npm",
     "packages": [
         "packages/*"
@@ -10,10 +10,10 @@
             "conventionalCommits": true,
             "exact": true,
             "ignoreChanges": [
-              "**/*.md"
+                "**/*.md"
             ],
             "message": "build: release version %v"
-          },
+        },
         "publish": {
             "message": "chore(release): publish",
             "ignoreChanges": [
