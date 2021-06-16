@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "rm -rf ./lib && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
-    "release": "npm run build && lerna publish",
+    "release": "npm run build && lerna version",
+    "publish": "lerna publish",
     "change": "lerna changed",
     "diff": "lerna diff"
   },
