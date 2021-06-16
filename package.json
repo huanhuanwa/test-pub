@@ -1,11 +1,11 @@
 {
   "name": "test-libs",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "rm -rf ./lib && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
-    "release": "npm run build && standard-version && lerna publish"
+    "release": "npm run build && standard-version && lerna version && lerna publish"
   },
   "repository": {
     "type": "git",
