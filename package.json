@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rm -rf ./lib && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
-    "release": "lerna publish"
+    "release": "npm run build && standard-version && lerna publish"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,9 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/huanhuanwa"
   },
-  "dependencies": {},
+  "dependencies": {
+    "standard-version": "^9.3.0"
+  },
   "devDependencies": {
     "eslint": "^7.28.0",
     "lerna": "^4.0.0",
