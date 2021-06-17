@@ -6,6 +6,7 @@
   "scripts": {
     "change": "lerna changed",
     "diff": "lerna diff",
+    "build": "rm -rf ./dist && tsc -p tsconfig.json",
     "release": "lerna version --conventional-commits --yes",
     "publish": "lerna publish from-git"
   },
