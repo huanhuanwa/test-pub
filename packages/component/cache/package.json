@@ -1,12 +1,11 @@
 {
-  "name": "test-cache-huan",
-  "version": "0.0.29",
-  "description": "",
-  "main": "index.ts",
-  "scripts": {
-    "test": ""
-  },
-  "author": "",
-  "license": "ISC",
-  "gitHead": "92870c526f29e58faede1d82dcb0e064022e6925"
+  "name": "test-huan-b",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {
+    "@types/lodash": "^4.14.172",
+    "@types/lz-string": "^1.3.34",
+    "lz-string": "^1.4.4"
+  }
 }

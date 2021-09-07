@@ -1,9 +1,6 @@
 {
-    "version": "0.0.29",
-    "npmClient": "npm",
-    "packages": [
-        "packages/*"
-    ],
+    "version": "0.0.0",
+    "npmClient": "yarn",
     "useWorkspaces": true,
     "command": {
         "version": {
@@ -17,6 +14,7 @@
         },
         "publish": {
             "message": "chore(release): publish",
+            "conventionalCommits": true,
             "ignoreChanges": [
                 ".gitignore",
                 "*.log",
