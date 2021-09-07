@@ -9,7 +9,7 @@
     "change": "lerna changed",
     "diff": "lerna diff",
     "release": "lerna version --conventional-commits --yes",
-    "publish": "lerna publish from-git --contents dist"
+    "publish": "lerna publish --contents dist"
   },
   "repository": {
     "type": "git",

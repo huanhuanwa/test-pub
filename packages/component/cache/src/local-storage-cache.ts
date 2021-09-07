@@ -68,11 +68,11 @@ const localStorageCache =  {
    * remove key from storage
    * @param key cache key
    */
-  remove(key: string) {
-    if (SupportedStorage) {
-      storageSource.removeItem(key);
-    }
-  },
+  // remove(key: string) {
+  //   if (SupportedStorage) {
+  //     storageSource.removeItem(key);
+  //   }
+  // },
   /**
    * clear all storage
    */
