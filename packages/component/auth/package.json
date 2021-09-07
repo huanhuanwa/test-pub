@@ -1,5 +1,5 @@
 {
-  "name": "@h/test-huan-a",
+  "name": "test-huan-a",
   "version": "5.0.11",
   "description": "",
   "main": "index.ts",
@@ -15,5 +15,5 @@
   "dependencies": {
     "test-huan-b": "^5.0.8"
   },
-  "gitHead": "f9ec13d5eac468e04f7a744244f62cbe5120bebb"
+  "gitHead": "0c27efc269f126ef14b2f8e2ec4d38f3b593ac90"
 }
