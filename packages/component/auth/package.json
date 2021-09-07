@@ -14,5 +14,6 @@
   },
   "dependencies": {
     "test-huan-b": "^5.0.8"
-  }
+  },
+  "gitHead": "f9ec13d5eac468e04f7a744244f62cbe5120bebb"
 }

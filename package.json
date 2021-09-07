@@ -10,7 +10,7 @@
     "diff": "lerna diff",
     "release": "lerna version --conventional-commits --yes",
     "move": "cd ./packages/component/cache && npm run build",
-    "publish": "lerna publish from-git --contents dist"
+    "publish": "lerna publish from-git --contents dist --no-verify-access"
   },
   "repository": {
     "type": "git",
