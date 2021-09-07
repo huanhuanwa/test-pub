@@ -9,7 +9,7 @@
     "change": "lerna changed",
     "diff": "lerna diff",
     "release": "lerna version --conventional-commits --yes",
-    "publish": "lerna publish from-git"
+    "publish": "lerna publish from-git --contents dist"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,9 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/huanhuanwa"
   },
-  "dependencies": {},
+  "dependencies": {
+    "test-huan-b": "^5.0.8"
+  },
   "eslintConfig": {
     "extends": "eslint:recommended",
     "env": {

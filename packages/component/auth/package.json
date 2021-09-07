@@ -11,5 +11,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/huanhuanwa/test-puba.git"
+  },
+  "dependencies": {
+    "test-huan-b": "^5.0.8"
   }
 }
