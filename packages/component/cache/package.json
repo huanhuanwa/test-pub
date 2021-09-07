@@ -2,6 +2,7 @@
   "name": "test-huan-b",
   "version": "5.0.16",
   "license": "MIT",
+  "main":"dist/test-huan-b.js",
   "scripts": {},
   "dependencies": {
     "@types/lodash": "^4.14.172",

@@ -15,6 +15,7 @@ function getExternals (dependencies) {
     Object.keys(dependencies).forEach(p => {
       externals[p] = `commonjs ${p}`;
     });
+    console.log(externals);
     return externals;
   }
 }

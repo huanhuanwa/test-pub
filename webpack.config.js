@@ -24,10 +24,12 @@ module.exports = (opt) => {
     entry: path.resolve(opt.path, './index.ts'),
     output: {
       path: path.resolve(opt.path, './dist'),
-      filename: `${opt.name}.min.js`,
+      filename: `${opt.name}.js`,
       library: opt.name,
       libraryTarget: 'umd',
-      umdNamedDefine: true
+      umdNamedDefine: true,
+      libraryExport: 'default', 
+      globalObject: 'this'
     },
     externals: opt.externals,
     plugins: [
@@ -53,7 +55,7 @@ module.exports = (opt) => {
       extensions: ['.ts', '.js']
     },
     optimization: {
-      minimize: true
+      minimize: false
     }
   };
 };
