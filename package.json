@@ -9,6 +9,7 @@
     "change": "lerna changed",
     "diff": "lerna diff",
     "release": "lerna version --conventional-commits --yes",
+    "move": "cd ./packages/component/cache && npm run build",
     "publish": "lerna publish from-git --contents dist"
   },
   "repository": {
@@ -70,6 +71,7 @@
     "lint-staged": "^11.0.0",
     "standard-version": "^9.3.0",
     "typescript": "^4.3.2",
-    "clean-webpack-plugin": "4.0.0"
+    "clean-webpack-plugin": "4.0.0",
+    "copy-webpack-plugin": "^6.0.3"
   }
 }

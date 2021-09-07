@@ -16,6 +16,7 @@
 
 const path = require('path');
 const { CleanWebpackPlugin }  = require('clean-webpack-plugin');
+const  CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = (opt) => {
   return {
@@ -30,7 +31,15 @@ module.exports = (opt) => {
     },
     externals: opt.externals,
     plugins: [
-      new CleanWebpackPlugin()
+      new CleanWebpackPlugin(),
+      new CopyPlugin({
+        patterns: [
+          {
+            from: path.resolve(opt.path, './package.json'),
+            to:  path.resolve(opt.path, './dist')
+          }
+        ]
+      })
     ],
     module: {
       rules: [
