@@ -1,6 +1,6 @@
 {
   "name": "test-huan-a",
-  "version": "5.0.12",
+  "version": "5.0.13",
   "description": "",
   "main": "index.ts",
   "scripts": {
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/huanhuanwa/test-puba.git"
   },
   "dependencies": {
-    "test-huan-b": "5.0.12"
+    "test-huan-b": "5.0.13"
   },
   "gitHead": "0c27efc269f126ef14b2f8e2ec4d38f3b593ac90"
 }
