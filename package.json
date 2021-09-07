@@ -9,7 +9,6 @@
     "change": "lerna changed",
     "diff": "lerna diff",
     "release": "lerna version --conventional-commits --yes",
-    "move": "cd ./packages/component/cache && npm run build",
     "publish": "lerna publish from-git --contents dist"
   },
   "repository": {
