@@ -1,3 +1,4 @@
+import { memoryCache } from './memory-cache';
+import { cache } from './storage-cache';
 
-export * from './memory-cache';
-export * from './storage-cache';
+export { memoryCache, cache };

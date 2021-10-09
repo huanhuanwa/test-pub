@@ -2,7 +2,7 @@
   "name": "test-huan-a",
   "version": "5.0.29",
   "description": "",
-  "main": "index.ts",
+  "main": "dist/index.js",
   "files": [
     "dist"
   ],

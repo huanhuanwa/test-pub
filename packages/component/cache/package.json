@@ -2,7 +2,7 @@
   "name": "test-huan-b",
   "version": "5.0.29",
   "license": "MIT",
-  "main": "index.ts",
+  "main": "dist/index.js",
   "files": [
     "dist"
   ],

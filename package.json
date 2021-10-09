@@ -13,7 +13,7 @@
     "pub": "lerna publish --force-publish",
     "release": "lerna version --conventional-commits --yes",
     "prebuild": "git clean -fdx packages -e packages/component/*/node_modules",
-    "build": "yarn tsc -b && lerna run build:webpack"
+    "build": "yarn tsc -b"
   },
   "repository": {
     "type": "git",
