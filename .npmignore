@@ -11,8 +11,8 @@ tsconfig-cjson.json
 .eslintrc.js
 .eslintrc.json
 note.md
-src
-test
+src/
+test/
 tsconfig.tsbuildinfo
 CHANGELOG.md
 *.log
