@@ -1,5 +1,5 @@
 {
-  "name": "@test/test-huan-b",
+  "name": "test-huan-b",
   "version": "5.0.19",
   "license": "MIT",
   "main": "index.ts",
