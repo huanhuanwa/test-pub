@@ -11,7 +11,7 @@
     "test": "jest --forceExit --coverage",
     "prebuild": "git clean -fdx packages -e packages/component/*/node_modules",
     "build": "yarn test && yarn tsc -b",
-    "publish": "yarn build && yarn release && lerna publish from-git"
+    "publish": "yarn build && yarn release && lerna publish --force-publish"
   },
   "repository": {
     "type": "git",
