@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/huanhuanwa/test-puba#readme",
   "publishConfig": {
-    "access": "public",
     "registry": "https://npm.pkg.github.com/huanhuanwa"
   },
   "dependencies": {},

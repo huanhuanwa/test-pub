@@ -1,5 +1,5 @@
 {
-  "name": "test-huan-a",
+  "name": "@huanhuan/test-huan-a",
   "version": "5.0.33",
   "description": "",
   "main": "dist/index.js",
@@ -14,6 +14,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/huanhuanwa/test-puba.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "gitHead": "815071682d2965decf4852a2da1e4eb3f024770a"
 }
