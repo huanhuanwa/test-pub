@@ -1,6 +1,6 @@
 {
   "name": "test-huan-b",
-  "version": "5.0.21",
+  "version": "5.0.22",
   "license": "MIT",
   "main": "index.ts",
   "scripts": {

@@ -1,6 +1,6 @@
 {
   "name": "test-huan-a",
-  "version": "5.0.21",
+  "version": "5.0.22",
   "description": "",
   "main": "index.ts",
   "scripts": {
@@ -11,8 +11,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/huanhuanwa/test-puba.git"
-  },
-  "dependencies": {
   },
   "gitHead": "83ee7796673b6c58dc47e3cf05b38cc84b58063f"
 }
