@@ -9,7 +9,7 @@
     "change": "lerna changed",
     "diff": "lerna diff",
     "release:publish": "lerna publish  --dist-tag next --force-publish",
-    "publish": "lerna publish from-git --contents dist",
+    "publish": "lerna publish from-git --contents dist --force-publish",
     "pub": "lerna publish --force-publis",
     "release": "lerna version --conventional-commits --yes",
     "prebuild": "git clean -fdx packages -e packages/component/*/node_modules",
