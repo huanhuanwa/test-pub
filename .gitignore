@@ -4,4 +4,4 @@ dist/
 *.log
 .nyc_output
 coverage
-tsclib
+tsconfig.tsbuildinfo

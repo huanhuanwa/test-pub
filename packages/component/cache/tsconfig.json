@@ -1,8 +1,9 @@
 {
     "extends": "../../../tsconfig.settings.json",
     "compilerOptions": {
-      "outDir": "tsclib",
-      "module": "esnext"
+      "outDir": "./dist",
+      "module": "esnext",
+      "rootDir": "src"
     },
     "include": ["./src/"],
 }

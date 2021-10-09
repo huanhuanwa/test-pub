@@ -13,7 +13,6 @@
     "url": "git+https://github.com/huanhuanwa/test-puba.git"
   },
   "dependencies": {
-    "test-huan-b": "5.0.18"
   },
   "gitHead": "83ee7796673b6c58dc47e3cf05b38cc84b58063f"
 }
