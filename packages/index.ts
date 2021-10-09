@@ -1,1 +1,1 @@
-export * from './component/cache/src';
+export * from './component/cache/src/index';
