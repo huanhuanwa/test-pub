@@ -6,13 +6,15 @@
   "scripts": {
     "install": "lerna bootstrap",
     "test": "jest --forceExit --coverage",
-    "build": "rimraf dist && npm run build:main & npm run build:module",
     "build:main": "tsc -p tsconfig.json",
     "build:module": "tsc -p tsconfig.module.json",
     "change": "lerna changed",
     "diff": "lerna diff",
+    "publish": "lerna publish from-git --contents ../../dist",
     "release": "lerna version --conventional-commits --yes",
-    "publish": "lerna publish from-git --contents ../../dist"
+    "pub": "lerna publish from-git",
+    "prebuild": "git clean -fdx packages -e packages/component/*/node_modules",
+    "build": "yarn tsc -b && lerna run build:webpack"
   },
   "repository": {
     "type": "git",

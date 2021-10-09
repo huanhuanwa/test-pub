@@ -1,4 +1,4 @@
-import { localStorageCache as cache } from './local-storage-cache';
+import { cache } from '../src/storage-cache';
 import * as LZString from 'lz-string';
 const NUMBER_PREFIX = '____n____';
 

@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "noErrorTruncation": true,
+    "noImplicitAny": false,
+    "suppressImplicitAnyIndexErrors": false,
+    "strictNullChecks": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noImplicitThis": false,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["DOM", "ESnext"],
+    "strict": true,
+    "sourceMap": true,
+    "composite": true,
+    "declarationMap": true,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

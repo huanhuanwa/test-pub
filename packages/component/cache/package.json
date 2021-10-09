@@ -9,9 +9,9 @@
     "build:module": "tsc -p tsconfig.module.json"
   },
   "dependencies": {
-    "@types/lodash": "^4.14.172",
+    "@types/lodash": "^4.14.175",
     "@types/lz-string": "^1.3.34",
     "lz-string": "^1.4.4"
   },
-  "gitHead": "0c27efc269f126ef14b2f8e2ec4d38f3b593ac90"
+  "gitHead": "ac86f32d6b5b66543e7c8e337ac3bb05669fdb61"
 }

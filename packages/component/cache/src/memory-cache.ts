@@ -11,7 +11,7 @@ string,
  */
 const MAX_CACHE_SIZE = 1000;
 
-const cache =  {
+class MemoryCache {
   /**
      * set item to local storage
      *
@@ -44,7 +44,7 @@ const cache =  {
         this.remove(minHitKey);
       }
     }
-  },
+  }
   /**
      * get item from local storage
      *
@@ -68,7 +68,7 @@ const cache =  {
     }
     cacheHits.set(key, cacheHit);
     return memoryStorage.get(key);
-  },
+  }
   /**
      * remove key from storage
      * @param key cache key
@@ -76,21 +76,21 @@ const cache =  {
   remove(key: string) {
     memoryStorage.delete(key);
     cacheHits.delete(key);
-  },
+  }
   /**
      * has cache
      * @param key cache key
      */
   has(key: string) {
     return memoryStorage.has(key);
-  },
+  }
   /**
      * clear all storage
      */
   clear() {
     memoryStorage.clear();
     cacheHits.clear();
-  },
+  }
   /**
      * add item to list
      * @example
@@ -99,7 +99,7 @@ const cache =  {
      * memoryCache.add(`key`, `001`, `value 001`, max);
      */
   listAdd<TValue = string>(key: string, id: string, value: TValue, max: number = 10): void {
-    const allItems = this.get(key) as { id: string; value: TValue }[] || [];
+    const allItems = this.get<{ id: string; value: TValue }[]>(key) || [];
     const currentItem = allItems.find(item => {
       return item.id === id;
     });
@@ -115,14 +115,14 @@ const cache =  {
       currentItem.value = value;
     }
     this.set(key, allItems);
-  },
+  }
   /**
      * get item from list
      * @example
      * memoryCache.get(`key`, `001`);
      */
   listGet<TValue>(key: string, id: string): TValue {
-    const allItems = this.get(key) as { id: string; value: TValue }[] || [];
+    const allItems = this.get<{ id: string; value: TValue }[]>(key) || [];
     const currentItem = allItems.find(item => {
       return item.id === id;
     });
@@ -131,11 +131,11 @@ const cache =  {
     } else {
       return null as any;
     }
-  },
-
+  }
   size() {
     return memoryStorage.size;
   }
-};
+}
 
-export { cache };
+const memoryCache = new MemoryCache();
+export { memoryCache };
