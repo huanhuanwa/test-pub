@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.0.29](https://github.com/huanhuanwa/test-pub/compare/v5.0.28...v5.0.29) (2021-10-09)
+
+**Note:** Version bump only for package test-huan-b
+
+
+
+
+
 ## [5.0.28](https://github.com/huanhuanwa/test-pub/compare/v5.0.27...v5.0.28) (2021-10-09)
 
 **Note:** Version bump only for package test-huan-b

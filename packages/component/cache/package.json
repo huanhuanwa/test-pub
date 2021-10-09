@@ -1,9 +1,9 @@
 {
   "name": "test-huan-b",
-  "version": "5.0.28",
+  "version": "5.0.29",
   "license": "MIT",
   "main": "index.ts",
-  "files":[
+  "files": [
     "dist"
   ],
   "scripts": {},
