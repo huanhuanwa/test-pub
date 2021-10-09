@@ -1,30 +1,18 @@
 {
   "compilerOptions": {
-    "noErrorTruncation": true,
-    "noImplicitAny": false,
-    "suppressImplicitAnyIndexErrors": false,
-    "strictNullChecks": true,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitReturns": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": false,
-    "noImplicitThis": false,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
-    "removeComments": false,
-    "preserveConstEnums": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "target": "es2015",
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "lib": ["DOM", "ESnext"],
-    "strict": true,
-    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
     "composite": true,
-    "declarationMap": true,
     "declaration": true,
-    "allowSyntheticDefaultImports": true
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strict": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "esnext"
+    
   },
   "exclude": [
     "node_modules"
