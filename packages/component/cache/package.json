@@ -1,6 +1,6 @@
 {
   "name": "@huanhuan/test-huan-b",
-  "version": "5.0.34",
+  "version": "5.0.35",
   "license": "MIT",
   "main": "dist/index.js",
   "files": [
