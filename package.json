@@ -10,7 +10,7 @@
     "build:module": "tsc -p tsconfig.module.json",
     "change": "lerna changed",
     "diff": "lerna diff",
-    "publish": "lerna publish from-git --contents ../../dist",
+    "publish": "lerna publish from-git --contents tsclib",
     "release": "lerna version --conventional-commits --yes",
     "pub": "lerna publish from-git",
     "prebuild": "git clean -fdx packages -e packages/component/*/node_modules",
@@ -28,7 +28,6 @@
     "registry": "https://npm.pkg.github.com/huanhuanwa"
   },
   "dependencies": {
-    "test-huan-b": "^5.0.13"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
