@@ -11,7 +11,7 @@
     "change": "lerna changed",
     "diff": "lerna diff",
     "release:publish": "lerna publish  --dist-tag next --force-publish",
-    "publish": "cp -r packages/component/*/package.json  packages/component/*/dist && lerna publish from-git --contents dist",
+    "publish": "lerna publish from-git --contents dist",
     "release": "lerna version --conventional-commits --yes",
     "pub": "lerna publish from-git",
     "prebuild": "git clean -fdx packages -e packages/component/*/node_modules",
