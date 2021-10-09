@@ -10,7 +10,7 @@
     "diff": "lerna diff",
     "release:publish": "lerna publish  --dist-tag next --force-publish",
     "publish": "lerna publish from-git",
-    "pub": "lerna publish --force-publis",
+    "pub": "lerna publish --force-publish",
     "release": "lerna version --conventional-commits --yes",
     "prebuild": "git clean -fdx packages -e packages/component/*/node_modules",
     "build": "yarn tsc -b && lerna run build:webpack"

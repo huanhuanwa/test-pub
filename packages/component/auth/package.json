@@ -3,6 +3,9 @@
   "version": "5.0.28",
   "description": "",
   "main": "index.ts",
+  "files":[
+    "dist"
+  ],
   "scripts": {
     "test": ""
   },
@@ -12,5 +15,5 @@
     "type": "git",
     "url": "git+https://github.com/huanhuanwa/test-puba.git"
   },
-  "gitHead": "0a33855c5fa6af50fd4cc843421be785ccc3213f"
+  "gitHead": "815071682d2965decf4852a2da1e4eb3f024770a"
 }

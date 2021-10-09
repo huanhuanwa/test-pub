@@ -3,6 +3,9 @@
   "version": "5.0.28",
   "license": "MIT",
   "main": "index.ts",
+  "files":[
+    "dist"
+  ],
   "scripts": {},
   "dependencies": {
     "@types/lodash": "^4.14.175",
