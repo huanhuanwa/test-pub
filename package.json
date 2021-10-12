@@ -24,6 +24,10 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/huanhuanwa"
   },
+  "predepends": {
+    "@angular/core": "^12.2.9",
+    "@tethys/cdk": "^12.0.0"
+  },
   "dependencies": {
     "@angular/core": "^12.2.9",
     "@tethys/cdk": "^12.0.0"
