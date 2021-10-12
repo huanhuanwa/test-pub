@@ -1,6 +1,6 @@
 {
   "name": "w-test-cache",
-  "version": "5.0.36",
+  "version": "5.0.37",
   "license": "MIT",
   "main": "dist/index.js",
   "files": [
