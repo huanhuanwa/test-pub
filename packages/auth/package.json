@@ -1,6 +1,6 @@
 {
   "name": "w-test-auth",
-  "version": "5.0.38",
+  "version": "5.0.40",
   "description": "",
   "main": "dist/index.js",
   "files": [
