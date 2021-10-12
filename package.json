@@ -8,10 +8,11 @@
     "change": "lerna changed",
     "diff": "lerna diff",
     "release": "lerna version --conventional-commits --yes",
-    "test": "jest --forceExit --coverage",
-    "prebuild": "git clean -fdx packages -e packages/component/*/node_modules",
-    "build": "yarn test && yarn tsc -b",
-    "publish": "yarn build && yarn release && lerna publish --force-publish"
+    "test": "karma start",
+    "test:node": "ts-node ./node_modules/jasmine/bin/jasmine --config=jasmine.json",
+    "prebuild": "git clean -fdx packages/*/tsconfig.tsbuildinfo -e packages/*/node_modules",
+    "build": "yarn tsc -b",
+    "publish": "yarn test && yarn build && yarn release && lerna publish --force-publish"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,10 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/huanhuanwa"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@angular/core": "^12.2.9",
+    "@tethys/cdk": "^12.0.0"
+  },
   "eslintConfig": {
     "extends": "eslint:recommended",
     "env": {
@@ -44,37 +48,29 @@
     }
   },
   "workspaces": [
-    "packages/component/*"
+    "packages/*"
   ],
   "devDependencies": {
-    "@babel/cli": "^7.15.7",
-    "@babel/core": "^7.15.8",
-    "@babel/plugin-proposal-object-rest-spread": "^7.15.6",
-    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
-    "@babel/preset-env": "^7.15.8",
-    "@babel/preset-react": "^7.14.5",
-    "@babel/preset-typescript": "^7.15.0",
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
-    "@types/jest": "^27.0.2",
+    "@types/jasmine": "^3.9.1",
     "@types/node": "^15.12.2",
     "@typescript-eslint/eslint-plugin": "^4.27.0",
     "@typescript-eslint/parser": "^4.27.0",
-    "babel-jest": "^27.2.4",
     "clean-webpack-plugin": "^4.0.0",
     "cz-lerna-changelog": "^2.0.3",
     "eslint": "^7.28.0",
-    "eslint-plugin-jest": "^24.5.2",
     "husky": "^6.0.0",
-    "jest": "^27.2.4",
+    "jasmine": "^3.9.0",
+    "jasmine-core": "^3.9.0",
+    "karma": "^6.3.4",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^4.0.1",
+    "karma-spec-reporter": "^0.0.32",
+    "karma-typescript": "^5.5.2",
     "lerna": "^4.0.0",
     "lint-staged": "^11.0.0",
     "standard-version": "^9.3.0",
-    "ts-jest": "^27.0.5",
-    "ts-loader": "^9.2.6",
-    "typescript": "^4.3.2",
-    "webpack": "^5.58.0",
-    "webpack-cli": "^4.9.0",
-    "webpack-dev-server": "^4.3.1"
+    "typescript": "^4.3.2"
   }
 }

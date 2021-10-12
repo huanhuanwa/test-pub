@@ -1,5 +1,5 @@
 {
-  "name": "@huanhuan/test-huan-a",
+  "name": "w-test-auth",
   "version": "5.0.35",
   "description": "",
   "main": "dist/index.js",
@@ -18,5 +18,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "815071682d2965decf4852a2da1e4eb3f024770a"
+  "gitHead": "9eb363848e09759c8864e1f92f7047f28e9ad841"
 }
